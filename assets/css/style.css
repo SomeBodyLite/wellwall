@@ -1,0 +1,40 @@
+body {
+  background: rgba(26, 26, 26, 1);
+}
+/* path#colored{
+  fill: #ffffff1c;
+} */
+path#colored:hover,
+path#colored:focus,
+path#colored:active,
+.colored-active {
+  fill: #3f8cff;
+  box-shadow: 0px 4px 4px rgba(17, 112, 225, 0.01),
+    0px 32px 32px rgba(17, 112, 225, 0.05);
+}
+path {
+  transition: fill 0.2s ease-in-out;
+  stroke-width: 0.2;
+  stroke-linejoin: round;
+  cursor: pointer;
+  /* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
+}
+.map {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 1400px) {
+  svg {
+    height: 855px;
+    width: 1140px;
+  }
+}
+svg {
+  height: 990px;
+  width: 1320px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
