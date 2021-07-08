@@ -131,6 +131,7 @@ header {
 header::before {
   content: url(../images/bg_waves.svg);
   position: absolute;
+  z-index: -1;
 }
 .header-item {
   margin-right: 50px;
@@ -144,8 +145,6 @@ header::before {
   border: none;
   border-radius: 2px;
   padding: 14px 32px;
-}
-.header-button > a {
   font-family: VelaSans;
   font-weight: 600;
   font-size: 18px;
@@ -156,4 +155,47 @@ header::before {
 }
 .header-button > img {
   margin-right: 8px;
+}
+.main {
+  display: flex;
+}
+.main-text h1 {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.0025em;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.main-text p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.0015em;
+  color: #ffffffd9;
+  margin-bottom: 30px;
+}
+.main-buttons button {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.0025em;
+  color: #ffffff;
+  border: none;
+  padding: 18px 32px;
+  background: #3f8cff;
+  border-radius: 4px;
+}
+.main-buttons a {
+  display: flex;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.main-buttons span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.0015em;
+  color: #ffffff;
 }
