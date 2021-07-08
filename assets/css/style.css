@@ -1,3 +1,33 @@
+@font-face {
+  font-family: "VelaSans";
+  src: local("VelaSans Bold"), local("VelaSans-Bold"),
+    url("../fonts/VelaSans-Bold.woff2") format("woff2"),
+    url("../fonts/VelaSans-Bold.woff") format("woff"),
+    url("../fonts/VelaSans-Bold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "VelaSans";
+  src: local("VelaSans SemiBold"), local("VelaSans-SemiBold"),
+    url("../fonts/VelaSans-SemiBold.woff2") format("woff2"),
+    url("../fonts/VelaSans-Regular.woff") format("woff"),
+    url("../fonts/VelaSans-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "VelaSans";
+  src: local("VelaSans Regular"), local("VelaSans-Regular"),
+    url("../fonts/VelaSans-Regular.woff2") format("woff2"),
+    url("../fonts/VelaSans-Regular.woff") format("woff"),
+    url("../fonts/VelaSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+html {
+  font-family: "VelaSans";
+}
 body {
   background: rgba(26, 26, 26, 1);
 }
@@ -47,6 +77,8 @@ body {
   height: auto;
   opacity: 0;
   transition: opacity 0.2s ease-in-out;
+  box-shadow: 0px 4px 4px rgba(17, 112, 225, 0.01),
+    0px 32px 32px rgba(17, 112, 225, 0.05);
 }
 .block_1 {
   top: 270px;
@@ -78,4 +110,50 @@ body {
 }
 .active {
   opacity: 100%;
+}
+
+.header-link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.0024em;
+  color: #ffffff;
+  text-decoration: none;
+}
+.blue {
+  color: #3f8cff;
+}
+header {
+  height: 75px;
+  display: flex;
+}
+header::before {
+  content: url(../images/bg_waves.svg);
+  position: absolute;
+}
+.header-item {
+  margin-right: 50px;
+}
+.header-item:last-child {
+  margin-right: 0;
+}
+.header-button {
+  display: flex;
+  background: #3f8cff;
+  border: none;
+  border-radius: 2px;
+  padding: 14px 32px;
+}
+.header-button > a {
+  font-family: VelaSans;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  text-decoration: none;
+  letter-spacing: 0.0025em;
+  color: #ffffff;
+}
+.header-button > img {
+  margin-right: 8px;
 }
