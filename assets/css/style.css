@@ -146,15 +146,15 @@ body {
   height: 14px;
   margin-right: 18px;
   position: relative;
-  animation: arrow-slide 2s infinite alternate ease-in-out;
+  animation: arrow-slide 1s infinite alternate ease-in-out;
   right: 0;
 }
 @keyframes arrow-slide {
   from {
-    right: 5px;
+    right: 2.5px;
   }
   to {
-    right: -5px;
+    right: -2.5px;
   }
 }
 .header-link {
