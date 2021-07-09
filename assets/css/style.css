@@ -154,7 +154,7 @@ body {
     right: 15px;
   }
   to {
-    right: calc(10% - 70px);
+    right: -15px;
   }
 }
 .header-link {
