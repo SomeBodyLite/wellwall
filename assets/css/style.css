@@ -112,6 +112,20 @@ body {
   opacity: 100%;
 }
 
+.icon {
+  width: 20px;
+  height: 20px;
+}
+.main-buttons .icon:nth-child(1) {
+  width: 13px;
+  height: 14px;
+  margin-left: 10px;
+}
+.main-buttons .icon:nth-child(2) {
+  width: 13px;
+  height: 14px;
+  margin-right: 18px;
+}
 .header-link {
   font-weight: 600;
   font-size: 16px;
