@@ -151,10 +151,10 @@ body {
 }
 @keyframes arrow-slide {
   from {
-    right: 15px;
+    right: 5px;
   }
   to {
-    right: -15px;
+    right: -5px;
   }
 }
 .header-link {
