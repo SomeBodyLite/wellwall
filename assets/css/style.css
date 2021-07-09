@@ -145,6 +145,17 @@ body {
   width: 13px;
   height: 14px;
   margin-right: 18px;
+  position: relative;
+  animation: arrow-slide 2s infinite alternate ease-in-out;
+  right: 0;
+}
+@keyframes arrow-slide {
+  from {
+    right: 15px;
+  }
+  to {
+    right: calc(10% - 70px);
+  }
 }
 .header-link {
   font-weight: 600;
@@ -238,6 +249,7 @@ header::before {
 .advantages {
   background-color: #222222;
   padding: 40px 0;
+  margin-bottom: 75px;
 }
 .advantages-block img {
   margin-bottom: 10px;
