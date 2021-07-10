@@ -271,3 +271,38 @@ header::before {
   letter-spacing: 0.0015em;
   color: #919191;
 }
+.map-header,
+.services h2 {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2rem;
+  letter-spacing: -0.0024em;
+  color: #3f8cff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.services h2 {
+  text-align: left;
+}
+.map-block {
+  margin-bottom: 75px;
+}
+.services-blocks {
+  display: flex;
+}
+.services-block-1 {
+  max-width: 40%;
+}
+.services-block-content-start {
+  background-color: #242424e5;
+  filter: hue-rotate(60%);
+  background-image: url(../images/services-1-image.png);
+}
+.services-block-text {
+  font-weight: 600;
+  font-size: 24.5269px;
+  line-height: 32px;
+  letter-spacing: 0.0015em;
+  color: #ffffff;
+  padding: 22px 56px;
+}
