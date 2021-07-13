@@ -5,4 +5,7 @@
    <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 10" id="tarif_arrow">
     <path d="M2.32 4.41L6 .834 5.143 0 0 5l5.142 5L6 9.167 2.321 5.589l-.595-.575.595-.603H2.32z" fill="#fff"></path>
   </symbol>
+   <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 11" id="go_tarif">
+    <path d="M7.258 4.669L3.486 1.042l.879-.845 5.27 5.069-5.27 5.07-.879-.846 3.77-3.627H.32V4.67h6.939z" fill="#3F8CFF"></path>
+  </symbol>
 </svg>
