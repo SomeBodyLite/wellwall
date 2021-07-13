@@ -37,6 +37,10 @@ html {
 body {
   background: rgba(26, 26, 26, 1);
 }
+footer {
+  background: #222222;
+  padding: 30px 0 50px 0;
+}
 img {
   pointer-events: none;
 }
@@ -297,8 +301,16 @@ header::before {
   margin-bottom: 50px;
   padding: 0 105px;
 }
+.footer-content {
+  display: flex;
+  padding: 0 210px;
+  justify-content: space-between;
+}
 @media (max-width: 1400px) {
   .services {
+    padding: 0;
+  }
+  .footer-content {
     padding: 0;
   }
 }
@@ -483,4 +495,48 @@ header::before {
   .accordion .accordion-content p {
     font-size: 0.875rem;
   }
+}
+.footer-start p {
+  margin-top: 12px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.0015em;
+  color: #919191;
+}
+.footer-nav {
+  display: flex;
+}
+.footer-nav a {
+  text-decoration: none;
+}
+.footer-nav h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.0024em;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+.footer-nav li > a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.0024em;
+  color: #919191;
+}
+.footer-nav li {
+  margin-bottom: 10px;
+}
+.footer-nav li:last-child {
+  margin-bottom: 0;
+}
+.footer-nav-main,
+.footer-nav-services {
+  margin-right: 75px;
 }
