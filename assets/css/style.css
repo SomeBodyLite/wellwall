@@ -297,7 +297,8 @@ header::before {
 .faq {
   margin-bottom: 75px;
 }
-.services {
+.services,
+.faq {
   margin-bottom: 50px;
   padding: 0 105px;
 }
@@ -307,7 +308,8 @@ header::before {
   justify-content: space-between;
 }
 @media (max-width: 1400px) {
-  .services {
+  .services,
+  .faq {
     padding: 0;
   }
   .footer-content {
